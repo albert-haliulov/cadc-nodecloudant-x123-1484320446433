@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: cadc-nodecloudant-x123
+  host: cadc-nodecloudant-x123
+  disk_quota: 1024M
+  services:
+  - cadc-nodecloudant-x123-cloudantNoSQLDB
